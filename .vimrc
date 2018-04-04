@@ -35,6 +35,7 @@ au BufReadPost *
 "vim-plug
 call plug#begin('~/.vim/plugged')
 
+Plug 'beigebrucewayne/subtle_solo'
 Plug 'beigebrucewayne/Turtles'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -50,7 +51,9 @@ filetype plugin indent on
 
 " colorscheme
 set background=dark
-colorscheme turtles
+"colorscheme turtles
+"colorscheme subtle_dark
+colorscheme thaumaturge
 
 " Indent-Guides
 let g:indent_guides_auto_colors = 0
