@@ -45,6 +45,7 @@ Plug 'chase/vim-ansible-yaml'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/rainbow_parentheses.vim'
 
 call plug#end()
 filetype plugin indent on
@@ -62,6 +63,8 @@ let g:indent_guides_start_level = 2
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=244 guibg=red
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=240 guibg=red
 autocmd VimEnter,Colorscheme * :IndentGuidesEnable
+
+autocmd VimEnter * RainbowParentheses
 
 " airline
 set laststatus=2
