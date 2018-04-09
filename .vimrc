@@ -64,7 +64,9 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd ctermbg=244 guibg=red
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven ctermbg=240 guibg=red
 autocmd VimEnter,Colorscheme * :IndentGuidesEnable
 
+" rainbow parentheses
 autocmd VimEnter * RainbowParentheses
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}',], ['<', '>']]
 
 " airline
 set laststatus=2

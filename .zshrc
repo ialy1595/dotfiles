@@ -6,7 +6,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/ialy1595/.oh-my-zsh
+  export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -107,3 +107,8 @@ prompt_context() {
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias tat="tmux attach -t"
+alias tns="tmux new -s"
+
+source /home/ialy/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
