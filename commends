@@ -3,7 +3,7 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-git clone https://guthub.com/powerline/fonts.git
+sudo apt-get install fonts-powerline
 
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 
