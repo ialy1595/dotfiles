@@ -2,6 +2,8 @@ set sw=4 sts=4 ts=4 et
 
 au Filetype ocaml setlocal ts=2 sw=2 sts=2 et
 
+au Filetype javascript setlocal ts=2 sw=2 sts=2 et
+
 set nu
 
 set ignorecase
@@ -66,7 +68,7 @@ autocmd VimEnter,Colorscheme * :IndentGuidesEnable
 
 " rainbow parentheses
 autocmd VimEnter * RainbowParentheses
-let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}',], ['<', '>']]
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}',]]
 
 " airline
 set laststatus=2
